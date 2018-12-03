@@ -20,6 +20,7 @@ h1 {
 
 img {
   width: 40px;
+  color: #a63f38;
 }
 
 nav {
@@ -27,6 +28,10 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+nav :hover {
+  color: #a63f38;
 }
 
 li {
