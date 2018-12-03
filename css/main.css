@@ -13,8 +13,8 @@ body {
 }
 
 h1 {
-  font-size: 2 rem;
-  font-style: bold;
+  font-size: 2rem;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -25,10 +25,11 @@ img {
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
-  font-style: regular;
   font-size: 1.125rem;
   color: #fff;
 }
