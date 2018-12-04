@@ -36,7 +36,7 @@ nav ul {
   align-items: center;
 }
 
-nav li:hover{
+nav li:hover {
   background-color: #a63f38;
 }
 
@@ -44,7 +44,7 @@ nav li {
   font-size: 1.125rem;
   color: #fff;
   text-decoration: none;
-  border: 1px solid #a63f38
+  border: 1px solid #a63f38;
 }
 
 div {
