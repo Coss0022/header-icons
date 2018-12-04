@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: #d05c2e;
+  margin: 0;
 }
 
 h1 {
@@ -23,7 +24,8 @@ img {
   color: #a63f38;
 }
 
-nav {
+nav ul {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,6 +34,10 @@ nav {
 
 nav :hover {
   background-color: #a63f38;
+}
+
+nav li {
+  margin: 0 .5em;
 }
 
 li {
