@@ -9,14 +9,18 @@ html {
 }
 
 body {
-  background-color: #d05c2e;
   margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
+  display: inline-block;
 }
 
 img {
@@ -32,15 +36,19 @@ nav ul {
   align-items: center;
 }
 
-nav :hover {
+nav li:hover{
   background-color: #a63f38;
 }
 
 nav li {
-  margin: 0 .5em;
-}
-
-li {
   font-size: 1.125rem;
   color: #fff;
+  text-decoration: none;
+  border: 1px solid #a63f38
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
