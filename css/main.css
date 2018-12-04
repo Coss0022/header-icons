@@ -36,7 +36,7 @@ nav ul {
   align-items: center;
 }
 
-nav li:hover {
+nav ul:hover {
   background-color: #a63f38;
 }
 
